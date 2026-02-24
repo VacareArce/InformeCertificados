@@ -1,0 +1,568 @@
+{
+  "mensual": {
+    "6": {
+      "count": 129,
+      "valor": 4004234838.0699997,
+      "tipos": {
+        "Donación_EspecieFactura": 23,
+        "Donación_UnaAUnoFactura": 16,
+        "Donación_EspecieCarta": 14,
+        "Donación_EspecieFactura_bdo": 18,
+        "Donación_Dinero_empresa": 11,
+        "Donación_Dinero_persona": 3,
+        "Donación_UnoAUnoFactura_bdo": 24,
+        "Donación_UnoAUnoCarta_bdo": 8,
+        "Donación_EspecieCarta_bdo": 12
+      },
+      "acumulado_count": 129,
+      "acumulado_valor": 4004234838.0699997,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 23,
+        "Donación_UnaAUnoFactura": 16,
+        "Donación_EspecieCarta": 14,
+        "Donación_EspecieFactura_bdo": 18,
+        "Donación_Dinero_empresa": 11,
+        "Donación_Dinero_persona": 3,
+        "Donación_UnoAUnoFactura_bdo": 24,
+        "Donación_UnoAUnoCarta_bdo": 8,
+        "Donación_EspecieCarta_bdo": 12
+      }
+    },
+    "7": {
+      "count": 124,
+      "valor": 6808846313.78,
+      "tipos": {
+        "Donación_EspecieFactura": 21,
+        "Donación_UnaAUnoFactura": 3,
+        "Donación_EspecieCarta": 10,
+        "Donación_EspecieFactura_bdo": 15,
+        "Donación_Dinero_empresa": 12,
+        "Donación_UnoAUnoFactura_bdo": 38,
+        "Donación_EspecieCarta_bdo": 15,
+        "Donación_UnoAUnoCarta_bdo": 9,
+        "Donación_Dinero_empresa_bdo": 1
+      },
+      "acumulado_count": 253,
+      "acumulado_valor": 10813081151.849998,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 44,
+        "Donación_UnaAUnoFactura": 19,
+        "Donación_EspecieCarta": 24,
+        "Donación_EspecieFactura_bdo": 33,
+        "Donación_Dinero_empresa": 23,
+        "Donación_Dinero_persona": 3,
+        "Donación_UnoAUnoFactura_bdo": 62,
+        "Donación_UnoAUnoCarta_bdo": 17,
+        "Donación_EspecieCarta_bdo": 27,
+        "Donación_Dinero_empresa_bdo": 1
+      }
+    },
+    "8": {
+      "count": 123,
+      "valor": 4759347041.16,
+      "tipos": {
+        "Donación_EspecieFactura": 4,
+        "Donación_UnaAUnoFactura": 2,
+        "Donación_Dinero_empresa": 10,
+        "Donación_Dinero_persona": 1,
+        "Donación_EspecieFactura_bdo": 23,
+        "Donación_UnoAUnoFactura_bdo": 48,
+        "Donación_EspecieCarta": 1,
+        "Donación_EspecieCarta_bdo": 24,
+        "Donación_UnoAUnoCarta_bdo": 10
+      },
+      "acumulado_count": 376,
+      "acumulado_valor": 15572428193.009998,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 48,
+        "Donación_UnaAUnoFactura": 21,
+        "Donación_EspecieCarta": 25,
+        "Donación_EspecieFactura_bdo": 56,
+        "Donación_Dinero_empresa": 33,
+        "Donación_Dinero_persona": 4,
+        "Donación_UnoAUnoFactura_bdo": 110,
+        "Donación_UnoAUnoCarta_bdo": 27,
+        "Donación_EspecieCarta_bdo": 51,
+        "Donación_Dinero_empresa_bdo": 1
+      }
+    },
+    "9": {
+      "count": 129,
+      "valor": 5763851744.489999,
+      "tipos": {
+        "Donación_UnaAUnoFactura": 1,
+        "Donación_EspecieFactura": 2,
+        "Donación_EspecieFactura_bdo": 27,
+        "Donación_UnoAUnoFactura_bdo": 54,
+        "Donación_EspecieCarta_bdo": 22,
+        "Donación_UnoAUnoCarta_bdo": 8,
+        "Donación_Dinero_empresa_bdo": 15
+      },
+      "acumulado_count": 505,
+      "acumulado_valor": 21336279937.499996,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 50,
+        "Donación_UnaAUnoFactura": 22,
+        "Donación_EspecieCarta": 25,
+        "Donación_EspecieFactura_bdo": 83,
+        "Donación_Dinero_empresa": 33,
+        "Donación_Dinero_persona": 4,
+        "Donación_UnoAUnoFactura_bdo": 164,
+        "Donación_UnoAUnoCarta_bdo": 35,
+        "Donación_EspecieCarta_bdo": 73,
+        "Donación_Dinero_empresa_bdo": 16
+      }
+    },
+    "10": {
+      "count": 131,
+      "valor": 7302899810.98,
+      "tipos": {
+        "Donación_UnoAUnoFactura_bdo": 58,
+        "Donación_EspecieFactura_bdo": 32,
+        "Donación_EspecieFactura": 1,
+        "Donación_Dinero_empresa": 3,
+        "Donación_EspecieCarta_bdo": 18,
+        "Donación_Dinero_empresa_bdo": 10,
+        "Donación_Dinero_persona_bdo": 1,
+        "Donación_Carta_UnaAUno": 2,
+        "Donación_UnoAUnoCarta_bdo": 6
+      },
+      "acumulado_count": 636,
+      "acumulado_valor": 28639179748.479996,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 51,
+        "Donación_UnaAUnoFactura": 22,
+        "Donación_EspecieCarta": 25,
+        "Donación_EspecieFactura_bdo": 115,
+        "Donación_Dinero_empresa": 36,
+        "Donación_Dinero_persona": 4,
+        "Donación_UnoAUnoFactura_bdo": 222,
+        "Donación_UnoAUnoCarta_bdo": 41,
+        "Donación_EspecieCarta_bdo": 91,
+        "Donación_Dinero_empresa_bdo": 26,
+        "Donación_Dinero_persona_bdo": 1,
+        "Donación_Carta_UnaAUno": 2
+      }
+    },
+    "11": {
+      "count": 113,
+      "valor": 5165905230.180002,
+      "tipos": {
+        "Donación_EspecieFactura_bdo": 24,
+        "Donación_EspecieCarta_bdo": 21,
+        "Donación_UnoAUnoFactura_bdo": 42,
+        "Donación_Dinero_empresa_bdo": 16,
+        "Donación_Dinero_persona_bdo": 2,
+        "Donación_UnoAUnoCarta_bdo": 8
+      },
+      "acumulado_count": 749,
+      "acumulado_valor": 33805084978.659996,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 51,
+        "Donación_UnaAUnoFactura": 22,
+        "Donación_EspecieCarta": 25,
+        "Donación_EspecieFactura_bdo": 139,
+        "Donación_Dinero_empresa": 36,
+        "Donación_Dinero_persona": 4,
+        "Donación_UnoAUnoFactura_bdo": 264,
+        "Donación_UnoAUnoCarta_bdo": 49,
+        "Donación_EspecieCarta_bdo": 112,
+        "Donación_Dinero_empresa_bdo": 42,
+        "Donación_Dinero_persona_bdo": 3,
+        "Donación_Carta_UnaAUno": 2
+      }
+    },
+    "12": {
+      "count": 161,
+      "valor": 11401434289.529999,
+      "tipos": {
+        "Donación_EspecieFactura_bdo": 57,
+        "Donación_Dinero_empresa_bdo": 17,
+        "Donación_Dinero_persona_bdo": 2,
+        "Donación_UnoAUnoFactura_bdo": 40,
+        "Donación_EspecieCarta_bdo": 36,
+        "Donación_UnoAUnoCarta_bdo": 9
+      },
+      "acumulado_count": 910,
+      "acumulado_valor": 45206519268.189995,
+      "acumulado_tipos": {
+        "Donación_EspecieFactura": 51,
+        "Donación_UnaAUnoFactura": 22,
+        "Donación_EspecieCarta": 25,
+        "Donación_EspecieFactura_bdo": 196,
+        "Donación_Dinero_empresa": 36,
+        "Donación_Dinero_persona": 4,
+        "Donación_UnoAUnoFactura_bdo": 304,
+        "Donación_UnoAUnoCarta_bdo": 58,
+        "Donación_EspecieCarta_bdo": 148,
+        "Donación_Dinero_empresa_bdo": 59,
+        "Donación_Dinero_persona_bdo": 5,
+        "Donación_Carta_UnaAUno": 2
+      }
+    }
+  },
+  "rechazos": [
+    {
+      "document_id": "AC-0496",
+      "fecha": "31 de Julio del 2025",
+      "empresa": "HY-LINE COLOMBIA S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "El 11 de febrero se recibe correo de Logística solicitando anular este certificado porque la factura PL14576 fue anulada en su totalidad con la nota crédito 235 (se incluye en los soportes de este certificado). En el mismo correo reportan que esta donación se certificó en el AC-0495 factura PL14076"
+    },
+    {
+      "document_id": "AC-0606",
+      "fecha": "14 de Agosto del 2025",
+      "empresa": "POSTOBON S.A.",
+      "quien": "M.M.P.",
+      "observacion": "Andrea Salamanca solicita anular este certificado porque la factura BQ071430689 se anulo totalmente con la NC NP30206835. Se reemplazo con el certificado AC-1734 y la factura \tBQ071757707 que reemplazo la anulada (BQ071430689) se certifico con el AC-1735 porque tenia fecha de expedicion de septiembre."
+    },
+    {
+      "document_id": "AC-0631",
+      "fecha": "22 de Agosto del 2025",
+      "empresa": "PRODUCTOS RAMO SAS",
+      "quien": "M.M.P.",
+      "observacion": "Ya estaba firmado por Revisoría y se genero las NC NCR2770783, NCR2770973, NCR2770975 por valor de $6.677.226, $2.925.304 y $71.100 respectivamente el 11 de noviembre de 2025. Se reemplazo con el AC-1058."
+    },
+    {
+      "document_id": "AC-0632",
+      "fecha": "25 de Agosto del 2025",
+      "empresa": "DIANA CORPORACION S A S",
+      "quien": "M.M.P.",
+      "observacion": "se  anula el certificado  se remplaza por el cert AC-1390"
+    },
+    {
+      "document_id": "AC-0638",
+      "fecha": "26 de Agosto del 2025",
+      "empresa": "SABANALAC SA",
+      "quien": "M.M.P.",
+      "observacion": "SOLICITUD DONANTE. SE EXPIDIO CON RAZON SOCIAL SABANALAC SA Y ES SABANALAC SAS"
+    },
+    {
+      "document_id": "AC-0639",
+      "fecha": "26 de Agosto del 2025",
+      "empresa": "SABANALAC SA",
+      "quien": "M.M.P.",
+      "observacion": "SOLICITUD DONANTE. SE EXPIDIO CON RAZON SOCIAL SABANALAC SA Y ES SABANALAC SAS"
+    },
+    {
+      "document_id": "AC-0737",
+      "fecha": "04 de Septiembre del 2025",
+      "empresa": "SCOTIABANK COLPATRIA S.A.",
+      "quien": "M.M.P.",
+      "observacion": "Se  anula el certificado AC-0737  por cambio de razón social de la empresa, se remplaza por AC-0907"
+    },
+    {
+      "document_id": "AC-0743",
+      "fecha": "04 de Septiembre del 2025",
+      "empresa": "SCOTIABANK COLPATRIA S.A.",
+      "quien": "M.M.P.",
+      "observacion": "se anula por cambio de razón social del donante, \nse remplaza por AC-0908"
+    },
+    {
+      "document_id": "AC-0829",
+      "fecha": "24 de Septiembre del 2025",
+      "empresa": "DONUCOL S.A.",
+      "quien": "M.M.P.",
+      "observacion": "Se anula por solicitud de Ingrid en correo enviado el 23 de diciembre a la 1:20 pm a Nubia y Tatiana. La factura FEV327970 se certifico en el AC-0905 y este ultimo certificado tiene los beneficiarios correctos (el 829 no)."
+    },
+    {
+      "document_id": "AC-0871",
+      "fecha": "21 de Octubre del 2025",
+      "empresa": "DIANA CORPORACION S A S",
+      "quien": "M.M.P.",
+      "observacion": "Se cambio certificado por el AC-1736 error en el valor  el donante envió carta para cambio"
+    },
+    {
+      "document_id": "AC-0903",
+      "fecha": "30 de Octubre del 2025",
+      "empresa": "DONA S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "Se anula certificado ya que se encontraba doble, el certificado que lo reemplaza es el AC-0828."
+    },
+    {
+      "document_id": "AC-0904",
+      "fecha": "30 de Octubre del 2025",
+      "empresa": "DONA S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "Se anula certificado ya que se encontraba doble, el certificado que lo reemplaza es el AC-0828"
+    },
+    {
+      "document_id": "AC-0906",
+      "fecha": "30 de Octubre del 2025",
+      "empresa": "DONUCOL S.A.",
+      "quien": "M.M.P.",
+      "observacion": "Se anula certificado ya que se encontraba doble, el certificado que lo reemplaza es el AC-0831"
+    },
+    {
+      "document_id": "AC-0910",
+      "fecha": "05 de Noviembre del 2025",
+      "empresa": "FUNDACION OLIMPICA",
+      "quien": "M.M.P.",
+      "observacion": "Se anula por solicitud de Ingrid en correo enviado el 23 de diciembre a la 1:20 pm. Se envió la solicitud dos veces y se generaron los certificados AC-0849 y AC-0910. Se deja vigente el AC-0849."
+    },
+    {
+      "document_id": "AC-0959",
+      "fecha": "26 de Noviembre del 2025",
+      "empresa": "PRODUCTORA DE ALIMENTOS CONCENTRADOS PARA ANIMALES CONTEGRAL S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "Se anula por solicitud recibida de Logística vía correo electrónico el 10 de febrero de 2026, la razón es que las facturas FGE265334 y FGE266498  se anularon parcialmente con las NC NFE7423 y NFE7698 respectivamente. Se reemplazo por el AC-1583."
+    },
+    {
+      "document_id": "AC-1038",
+      "fecha": "10 de Diciembre del 2025",
+      "empresa": "DIPSA FOOD ENERGY REPRESENTACIONES SAS",
+      "quien": "M.M.P.",
+      "observacion": "Andrea Salamanca solicita anular porque la factura DO07854 fue anulada en su totalidad con la NC NCS11416 y el certificado ya estaba firmado. Se reemplazo por el certificado AC-1730 para las facturas con fecha de septiembre y para la factura DO071006 expedida en diciembre como reemplazo de la DO07854 (anulada) se genero el certificado AC-1731."
+    },
+    {
+      "document_id": "AC-1177",
+      "fecha": "27 de Diciembre del 2025",
+      "empresa": "ALIMENTOS CARNICOS S.A.S",
+      "quien": "M.M.P.",
+      "observacion": "El 12 de febrero via correo electronico se recibe solicitud de Andrea Salamanca de anular este certificado porque las facturas N110830620 y N110862967\tfueron anuladas en su totalidad con las NC NNC6400035 y NNC6400020. respectivamente."
+    },
+    {
+      "document_id": "AC-1178",
+      "fecha": "27 de Diciembre del 2025",
+      "empresa": "ALIMENTOS CARNICOS S.A.S",
+      "quien": "M.M.P.",
+      "observacion": "Andrea Salamanca solicito anular este certificado via correo electronico el 12 de febrero porque la factura \tN110962866 se anulo en su totalidad con la NC NNC6399990. Se reemplazo con el certificado AC-1733"
+    },
+    {
+      "document_id": "AC-1223",
+      "fecha": "31 de diciembre del 2025",
+      "empresa": "COMPAÑIA DE GALLETAS NOEL S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "El 18 de febrero se recibio correo de Andrea Salamanca solicitando la anulacion de este certificado porque las tres facturas certificadas GN168709, GN168710 y GN169703 fueron anuladas con las NC GNNC698902, GNNC698901 y GNNC698858 respectivamente."
+    },
+    {
+      "document_id": "AC-1224",
+      "fecha": "31 de diciembre del 2025",
+      "empresa": "COMPAÑIA DE GALLETAS NOEL S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "El 18 de febrero Andrea Salamanca solicita anular este certifico porque posterior a su firma se generaron las NC GNNC698811 y GNNC698812 anulando las facturas GN170563 y GN170562 respectivamente. En su reemplazo se genero el certificado AC-1720 por la factura que quedo vigente GN171570."
+    },
+    {
+      "document_id": "AC-1229",
+      "fecha": "31 de diciembre del 2025",
+      "empresa": "COMPAÑIA DE GALLETAS NOEL S.A.S.",
+      "quien": "M.M.P.",
+      "observacion": "Se solicito cambiar la ciudad de Neiva a Medellin pero en el momento de hacerlo ya estaba firmado. Se reemplazo por el AC-1728."
+    },
+    {
+      "document_id": "AC-0963",
+      "fecha": "26 de Noviembre del 2025",
+      "empresa": "CENCOSUD COLOMBIA S.A.",
+      "quien": "M.M.P.",
+      "observacion": "Se cambio certificado por el AC-1726. Error en el valor contabilizado."
+    },
+    {
+      "document_id": "AC-1398",
+      "fecha": "31 de Diciembre del 2025",
+      "empresa": "D1 S A S",
+      "quien": "M.M.P.",
+      "observacion": "Se cambio certificado por el AC-1723. Error en el valor contabilizado."
+    },
+    {
+      "document_id": "AC-1408",
+      "fecha": "31 de diciembre del 2025",
+      "empresa": "NEWELL BRANDS DE COLOMBIA SAS",
+      "quien": "M.M.P.",
+      "observacion": "El 12 de febrero se solicita anular este certificado porque se debía cambiar el BA a Buenaventura y al momento de hacer la solicitud ya se había firmado. Se genero como reemplazo el AC-1585."
+    },
+    {
+      "document_id": "AC-1411",
+      "fecha": "31 de diciembre del 2025",
+      "empresa": "CPNS SAS",
+      "quien": "M.M.P.",
+      "observacion": "se cambio certificado por el AC-1564 error en el valor contabilizado."
+    },
+    {
+      "document_id": "AC-1432",
+      "fecha": "31 de Diciembre del 2025",
+      "empresa": "P J COL S A S",
+      "quien": "M.M.P.",
+      "observacion": "Andrea Salamanca solicito via correo electronico el 10 de febrero que se anulara porque la factura FE071 se anulo en su totalidad con la NC 996N1 y el documento ya estaba firmado por Revisoria. Se reemplazo por el 1729."
+    },
+    {
+      "document_id": "AC-1442",
+      "fecha": "31 de Diciembre del 2025",
+      "empresa": "SANUTEAM SAS",
+      "quien": "M.M.P.",
+      "observacion": "Se cambio certificado por el AC-1724. Error en el valor contabilizado."
+    },
+    {
+      "document_id": "AC-1479",
+      "fecha": "31 de Diciembre del 2025",
+      "empresa": "AJECOLOMBIA S.A.",
+      "quien": "M.M.P.",
+      "observacion": "Se cambio certificado por el AC-1725. Error en el valor contabilizado."
+    },
+    {
+      "document_id": "AC-1553",
+      "fecha": "31 de Diciembre del 2025",
+      "empresa": "DASA DE COLOMBIA S A S",
+      "quien": "M.M.P.",
+      "observacion": "se cambio certificado por el AC-1781 error en el valor contabilizado."
+    },
+    {
+      "document_id": "AC-1653",
+      "fecha": "31 de diciembre del 2025",
+      "empresa": "CENCOSUD COLOMBIA S.A.",
+      "quien": "M.M.P.",
+      "observacion": "la carta venia con un valor mal  se anula y se remplaza por el cert  AC-1782"
+    }
+  ],
+  "top_donantes": [
+    {
+      "empresa": "ALMACENES EXITO S A",
+      "count": 10,
+      "valor": 6912274149.0
+    },
+    {
+      "empresa": "GASEOSAS LUX S.A.S.",
+      "count": 25,
+      "valor": 4613226931.93
+    },
+    {
+      "empresa": "POSTOBON S.A.",
+      "count": 27,
+      "valor": 3420916180.359999
+    },
+    {
+      "empresa": "NESTLE DE COLOMBIA SA",
+      "count": 7,
+      "valor": 2986341160.3599997
+    },
+    {
+      "empresa": "COLOMBIANA DE COMERCIO S.A.",
+      "count": 7,
+      "valor": 2884896376.0
+    },
+    {
+      "empresa": "SERVICIOS NUTRESA S.A.S.",
+      "count": 4,
+      "valor": 1900750000.0
+    },
+    {
+      "empresa": "ALPINA PRODUCTOS ALIMENTICIOS S.A. BIC",
+      "count": 7,
+      "valor": 1858117784.0
+    },
+    {
+      "empresa": "NUTRIMENTI DE COLOMBIA S.A.S.",
+      "count": 16,
+      "valor": 1516686707.0799997
+    },
+    {
+      "empresa": "INVERSIONES ROA V SOLANO S A S",
+      "count": 1,
+      "valor": 1200000000.0
+    },
+    {
+      "empresa": "DASA DE COLOMBIA S A S",
+      "count": 14,
+      "valor": 1111204570.0
+    },
+    {
+      "empresa": "KELLOGG DE COLOMBIA S.A.",
+      "count": 11,
+      "valor": 1081470086.0
+    },
+    {
+      "empresa": "CPNS SAS",
+      "count": 7,
+      "valor": 1074090346.0
+    },
+    {
+      "empresa": "PRODUCTOS NATURALES DE LA SABANA S.A.S BIC",
+      "count": 4,
+      "valor": 756859218.0
+    },
+    {
+      "empresa": "UNILEVER ANDINA COLOMBIA LTDA",
+      "count": 8,
+      "valor": 681513638.02
+    },
+    {
+      "empresa": "SUPERTIENDAS Y DROGUERIAS OLIMPICA S.A.",
+      "count": 7,
+      "valor": 663773811.0
+    },
+    {
+      "empresa": "PRODUCTOS NATURALES DE LA SABANA S A S",
+      "count": 3,
+      "valor": 656954016.0
+    },
+    {
+      "empresa": "ALIMENTOS CARNICOS S.A.S",
+      "count": 28,
+      "valor": 598765162.0
+    },
+    {
+      "empresa": "FRESKALECHE S.A.S.",
+      "count": 7,
+      "valor": 545086677.0
+    },
+    {
+      "empresa": "PEPSICO ALIMENTOS COLOMBIA LTDA",
+      "count": 7,
+      "valor": 495813447.0
+    },
+    {
+      "empresa": "ASOCIACION NACIONAL DE EMPRESARIOS DE COLOMBIA",
+      "count": 5,
+      "valor": 475980000.0
+    },
+    {
+      "empresa": "PLAN B INVESTMENTS S.A.S",
+      "count": 9,
+      "valor": 475690621.0
+    },
+    {
+      "empresa": "COMPAÑIA NACIONAL DE CHOCOLATES S. A. S",
+      "count": 22,
+      "valor": 444053342.0
+    },
+    {
+      "empresa": "JERONIMO MARTINS COLOMBIA S.A.S.",
+      "count": 12,
+      "valor": 428392115.0
+    },
+    {
+      "empresa": "PRODUCTOS RAMO SAS",
+      "count": 9,
+      "valor": 409709392.0
+    },
+    {
+      "empresa": "NOVAVENTA S.A.S",
+      "count": 39,
+      "valor": 360200515.0
+    },
+    {
+      "empresa": "AVSA S.A",
+      "count": 10,
+      "valor": 334643508.0
+    },
+    {
+      "empresa": "PRODUCTORA DE ALIMENTOS CONCENTRADOS PARA ANIMALES CONTEGRAL S.A.S.",
+      "count": 13,
+      "valor": 304789799.0
+    },
+    {
+      "empresa": "COLOMBIANA DE COMERCIO S.A",
+      "count": 1,
+      "valor": 300000000.0
+    },
+    {
+      "empresa": "ALIMENTOS CONCENTRADOS DEL CARIBE S.A. \"ACONDESA S.A.\"",
+      "count": 1,
+      "valor": 296718504.6
+    },
+    {
+      "empresa": "HLF COLOMBIA LTDA",
+      "count": 3,
+      "valor": 294842274.0
+    }
+  ]
+}

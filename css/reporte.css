@@ -1,0 +1,157 @@
+/* Colores de Marca ABACO */
+:root {
+    --verde-limon: #D2DE38;
+    --naranja: #F58634;
+    --verde-hojas: #00A859;
+    --gris-texto: #5B5B5B;
+    --blanco: #FFFFFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Century Gothic fallback */
+    font-family: 'Montserrat', sans-serif; 
+    color: var(--gris-texto);
+    background-color: #f0f0f0;
+    font-size: 10pt; /* Optimizado para impresión */
+    line-height: 1.4;
+}
+
+/* Page Setup for A4 Printing */
+.a4-page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 20mm;
+    margin: 10mm auto;
+    background: var(--blanco);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    position: relative;
+    page-break-after: auto;
+}
+
+@page {
+    size: A4;
+    margin: 0; /* Removing default margins to control everything in .a4-page */
+}
+
+@media print {
+    body {
+        background-color: transparent;
+    }
+    .a4-page {
+        margin: 0;
+        box-shadow: none;
+        width: 100%;
+        min-height: 100vh;
+        page-break-after: always;
+    }
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--verde-hojas);
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.header-logo h2 {
+    color: var(--naranja);
+    font-weight: 800;
+    font-size: 24pt;
+    letter-spacing: -1px;
+}
+
+.header-logo p {
+    font-size: 8pt;
+    color: var(--gris-texto);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.header-title {
+    text-align: right;
+}
+
+.header-title h1 {
+    font-size: 16pt;
+    color: var(--verde-hojas);
+}
+
+.header-title p {
+    font-size: 10pt;
+    font-weight: bold;
+    color: var(--gris-texto);
+    margin-top: 5px;
+}
+
+/* Sections */
+.report-section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    background-color: var(--verde-limon);
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    border-left: 5px solid var(--verde-hojas);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-title h3 {
+    color: var(--blanco);
+    font-size: 12pt;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.section-title p {
+    font-weight: bold;
+    color: var(--gris-texto);
+    font-size: 11pt;
+}
+
+/* Tables */
+.report-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 9pt;
+}
+
+.report-table th, .report-table td {
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.report-table th {
+    background-color: var(--verde-hojas);
+    color: var(--blanco);
+    font-weight: bold;
+}
+
+.report-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.report-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+.font-bold { font-weight: bold; }
+
+/* Utilities */
+.currency::before {
+    content: "$ ";
+}

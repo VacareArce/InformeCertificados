@@ -1,0 +1,8 @@
+# Archivos de datos grandes que no deberían subirse
+*.csv
+process_report_data.py
+convert_bdcertificados.py
+convert_csv.py
+tipos.txt
+BDCertificados.json
+bancos.json

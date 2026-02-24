@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reporte de Certificados - ABACO</title>
+    <link rel="stylesheet" href="css/reporte.css">
+    <!-- Fuente corporativa secundaria (Century Gothic es de pago, usaremos un fallback similar) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="a4-page">
+        <header>
+            <div class="header-logo">
+                <h2>ABACO</h2>
+                <p>Asociación de Bancos de Alimentos de Colombia</p>
+            </div>
+            <div class="header-title">
+                <h1>Informe de Certificados Generados</h1>
+                <p>Período: Junio - Diciembre 2025</p>
+            </div>
+        </header>
+
+        <section class="report-section">
+            <div class="section-title">
+                <h3>1. Total de Certificados por Mes</h3>
+            </div>
+            <table class="report-table" id="tabla-totales">
+                <thead>
+                    <tr>
+                        <th>Mes</th>
+                        <th>Cantidad (Mensual)</th>
+                        <th>Valor (Mensual)</th>
+                        <th>Cantidad (Acumulado)</th>
+                        <th>Valor (Acumulado)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Llenado por JS -->
+                    <tr><td colspan="5" class="text-center">Cargando datos...</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="report-section">
+            <div class="section-title">
+                <h3>2. Certificados Generados por Tipo</h3>
+            </div>
+            <table class="report-table" id="tabla-tipos">
+                <thead>
+                    <tr>
+                        <th>Mes</th>
+                        <th>Tipo de Certificado</th>
+                        <th>Cantidad (Mensual)</th>
+                        <th>Cantidad (Acumulado)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Llenado por JS -->
+                </tbody>
+            </table>
+        </section>
+
+    </div> <!-- End Page 1 -->
+
+    <div class="a4-page" style="page-break-before: always;">
+        <header>
+            <div class="header-title">
+                <h1>Informe de Certificados Generados</h1>
+                <p>Continuación - Rechazos</p>
+            </div>
+        </header>
+
+        <section class="report-section">
+            <div class="section-title">
+                <h3>3. Certificados Rechazados / Anulados</h3>
+                <p>Total Rechazados: <span id="total-rechazados">0</span></p>
+            </div>
+            <table class="report-table" id="tabla-rechazos">
+                <thead>
+                    <tr>
+                        <th>ID Documento</th>
+                        <th>Empresa</th>
+                        <th>Rechazado Por</th>
+                        <th>Observación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Llenado por JS -->
+                </tbody>
+            </table>
+        </section>
+    </div> <!-- End Page 2 -->
+
+    <div class="a4-page" style="page-break-before: always;">
+        <header>
+            <div class="header-title">
+                <h1>Informe de Certificados Generados</h1>
+                <p>Continuación - Top Donantes</p>
+            </div>
+        </header>
+
+        <section class="report-section">
+            <div class="section-title">
+                <h3>4. Top 30 Donantes</h3>
+            </div>
+            <table class="report-table" id="tabla-donantes">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Donante / Empresa</th>
+                        <th>Cant. Certificados</th>
+                        <th>Monto Total Donado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Llenado por JS -->
+                </tbody>
+            </table>
+        </section>
+    </div> <!-- End Page 3 -->
+
+    <script src="js/reporte.js"></script>
+</body>
+</html>

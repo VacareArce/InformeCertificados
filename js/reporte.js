@@ -12,10 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
             renderTotales(data.constancias.mensual, 'tabla-totales-const', false);
             renderRechazos(data.constancias.rechazos, 'tabla-rechazos-const', 'total-rechazados-const');
             renderDonantes(data.constancias.top_donantes, 'tabla-donantes-const', false);
+
+            // === Gráficas ===
+            renderCharts(data);
         })
         .catch(error => {
             console.error('Error cargando los datos:', error);
-            document.querySelector('#tabla-totales-cert tbody').innerHTML = `<tr><td colspan="5" class="text-center">Error al cargar datos. Verifica que el JSON exista.</td></tr>`;
+            const tbody = document.querySelector('#tabla-totales-cert tbody');
+            if (tbody) tbody.innerHTML = `<tr><td colspan="5" class="text-center">Error al cargar datos. Verifica que el JSON exista.</td></tr>`;
         });
 });
 
@@ -43,7 +47,7 @@ function renderTotales(mensual, tableId, isCurrency) {
 
     for (let i = 6; i <= 12; i++) {
         const d = mensual[i];
-        if (!d) continue;
+        if (!d || d.count === 0) continue;
 
         const valFormat = isCurrency ? formatCurrency(d.valor) : `${formatNumber(d.valor)} kg`;
         const valAcumFormat = isCurrency ? formatCurrency(d.acumulado_valor) : `${formatNumber(d.acumulado_valor)} kg`;
@@ -101,7 +105,7 @@ function renderRechazos(rechazos, tableId, countId) {
     tbody.innerHTML = '';
 
     if (rechazos.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="4" class="text-center">No hay documentos rechazados en este período</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="3" class="text-center">No hay documentos rechazados en este período</td></tr>`;
         return;
     }
 
@@ -110,7 +114,6 @@ function renderRechazos(rechazos, tableId, countId) {
         tr.innerHTML = `
             <td>${r.document_id || 'N/A'}</td>
             <td>${r.empresa}</td>
-            <td>${r.quien || 'N/A'}</td>
             <td>${r.observacion || 'Sin observación'}</td>
         `;
         tbody.appendChild(tr);
@@ -134,4 +137,79 @@ function renderDonantes(donantes, tableId, isCurrency) {
         `;
         tbody.appendChild(tr);
     });
+}
+
+// === Gráficos con Chart.js ===
+function renderCharts(data) {
+    const labels = [];
+    const valuesCert = [];
+    const valuesConst = [];
+
+    // Recopilar datos solo de los meses con actividad
+    for (let i = 6; i <= 12; i++) {
+        const dCert = data.certificados.mensual[i];
+        const dConst = data.constancias.mensual[i];
+
+        if (dCert && dCert.count > 0 || dConst && dConst.count > 0) {
+            labels.push(nombresMeses[i]);
+            valuesCert.push(dCert ? dCert.count : 0);
+            valuesConst.push(dConst ? dConst.count : 0);
+        }
+    }
+
+    // Chart de Certificados
+    const ctxCert = document.getElementById('grafico-certificados');
+    if (ctxCert) {
+        new Chart(ctxCert, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Cantidad de Certificados',
+                    data: valuesCert,
+                    backgroundColor: 'rgba(210, 222, 56, 0.8)', // Verde Limón ABACO
+                    borderColor: '#00A859', // Verde hojas ABACO
+                    borderWidth: 1,
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'top' },
+                    title: { display: true, text: 'Certificados Emitidos por Mes' }
+                },
+                scales: { y: { beginAtZero: true } }
+            }
+        });
+    }
+
+    // Chart de Constancias
+    const ctxConst = document.getElementById('grafico-constancias');
+    if (ctxConst) {
+        new Chart(ctxConst, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Cantidad de Constancias',
+                    data: valuesConst,
+                    backgroundColor: 'rgba(245, 134, 52, 0.8)', // Naranja ABACO
+                    borderColor: '#F58634',
+                    borderWidth: 1,
+                    borderRadius: 4
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { position: 'top' },
+                    title: { display: true, text: 'Constancias Emitidas por Mes' }
+                },
+                scales: { y: { beginAtZero: true } }
+            }
+        });
+    }
 }

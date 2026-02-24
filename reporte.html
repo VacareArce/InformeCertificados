@@ -43,6 +43,10 @@
                     </tr>
                 </tbody>
             </table>
+
+            <div class="chart-container">
+                <canvas id="grafico-certificados"></canvas>
+            </div>
         </section>
 
         <section class="report-section">
@@ -81,7 +85,6 @@
                     <tr>
                         <th>ID Documento</th>
                         <th>Empresa</th>
-                        <th>Rechazado Por</th>
                         <th>Observación</th>
                     </tr>
                 </thead>
@@ -136,6 +139,10 @@
                 </thead>
                 <tbody></tbody>
             </table>
+
+            <div class="chart-container" style="margin-top:20px; text-align:center;">
+                <canvas id="grafico-constancias"></canvas>
+            </div>
         </section>
 
         <section class="report-section">
@@ -148,7 +155,6 @@
                     <tr>
                         <th>ID Documento</th>
                         <th>Empresa</th>
-                        <th>Rechazado Por</th>
                         <th>Observación</th>
                     </tr>
                 </thead>
@@ -182,6 +188,8 @@
         </section>
     </div> <!-- End Page 4 -->
 
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="js/reporte.js"></script>
 </body>
 

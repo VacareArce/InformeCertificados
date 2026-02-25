@@ -22,41 +22,13 @@ document.addEventListener("DOMContentLoaded", () => {
             if (tbody) tbody.innerHTML = `<tr><td colspan="5" class="text-center">Error al cargar datos. Verifica que el JSON exista.</td></tr>`;
         });
 
-    // === Lógica de Exportación a PDF (html2pdf) ===
+    // === Lógica de Exportación a PDF (Nativa) ===
     const btnDownload = document.getElementById('btn-download-pdf');
     if (btnDownload) {
         btnDownload.addEventListener('click', () => {
-            const element = document.getElementById('report-container');
-
-            // Ocultamos temporalmente las sombras para la captura
-            const pages = element.querySelectorAll('.letter-page');
-            pages.forEach(p => p.style.boxShadow = 'none');
-
-            const opt = {
-                margin: 10, // mm
-                filename: 'Informe_Donaciones_ABACO.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2, useCORS: true, logging: false },
-                jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
-                pagebreak: { mode: 'css', avoid: 'tr' }
-            };
-
-            // Cambiamos el texto del botón mientras procesa
-            const originalText = btnDownload.innerHTML;
-            btnDownload.innerHTML = 'Generando...';
-            btnDownload.disabled = true;
-
-            html2pdf().set(opt).from(element).save().then(() => {
-                // Restauramos el botón y la vista
-                btnDownload.innerHTML = originalText;
-                btnDownload.disabled = false;
-                pages.forEach(p => p.style.boxShadow = '');
-            }).catch(err => {
-                console.error("Error al exportar a PDF: ", err);
-                btnDownload.innerHTML = originalText;
-                btnDownload.disabled = false;
-                alert("Ocurrió un error al generar el PDF.");
-            });
+            // Utilizamos el motor de impresión nativo del navegador,
+            // el cual respeta el tamaño Carta, repite los encabezados thead y renderiza a la perfección.
+            window.print();
         });
     }
 });
@@ -119,8 +91,10 @@ function renderTipos(mensual, tableId) {
             let cols = '';
 
             if (isFirst) {
-                cols += `<td rowspan="${numTipos}" class="font-bold">${nombresMeses[i]}</td>`;
+                cols += `<td class="font-bold">${nombresMeses[i]}</td>`;
                 isFirst = false;
+            } else {
+                cols += `<td></td>`; // Celda vacía en lugar de rowspan para evitar cortes y desfasajes en páginas web
             }
 
             cols += `

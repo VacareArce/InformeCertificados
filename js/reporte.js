@@ -37,7 +37,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 filename: 'Informe_Donaciones_ABACO.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
                 html2canvas: { scale: 2, useCORS: true, logging: false },
-                jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' }
+                jsPDF: { unit: 'mm', format: 'letter', orientation: 'portrait' },
+                pagebreak: { mode: 'css', avoid: 'tr' }
             };
 
             // Cambiamos el texto del botón mientras procesa

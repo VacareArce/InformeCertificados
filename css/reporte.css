@@ -118,6 +118,8 @@ header {
     border-bottom: 3px solid var(--verde-hojas);
     padding-bottom: 15px;
     margin-bottom: 25px;
+    page-break-after: avoid;
+    break-after: avoid;
 }
 
 .header-logo h2 {
@@ -164,6 +166,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    page-break-after: avoid;
+    break-after: avoid;
 }
 
 .section-title h3 {

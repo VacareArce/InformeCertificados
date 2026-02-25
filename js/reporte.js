@@ -90,12 +90,7 @@ function renderTipos(mensual, tableId) {
             const tr = document.createElement('tr');
             let cols = '';
 
-            if (isFirst) {
-                cols += `<td class="font-bold">${nombresMeses[i]}</td>`;
-                isFirst = false;
-            } else {
-                cols += `<td></td>`; // Celda vacía en lugar de rowspan para evitar cortes y desfasajes en páginas web
-            }
+            cols += `<td class="font-bold">${nombresMeses[i]}</td>`;
 
             cols += `
                 <td>${tipo.replace(/_/g, ' ')}</td>

@@ -36,9 +36,8 @@ body {
 }
 
 @page {
-    size: letter;
-    margin: 0;
-    /* Removing default margins to control everything in .letter-page */
+    size: letter portrait;
+    margin: 0.5in;
 }
 
 @media print {
@@ -48,10 +47,15 @@ body {
 
     .letter-page {
         margin: 0;
+        padding: 0;
+        /* Let @page handle margins on print */
         box-shadow: none;
         width: 100%;
-        min-height: 100vh;
+        height: auto;
+        min-height: auto;
+        /* Allow natural flow */
         page-break-after: always;
+        overflow: visible;
     }
 }
 
@@ -98,6 +102,7 @@ header {
 /* Sections */
 .report-section {
     margin-bottom: 30px;
+    page-break-inside: avoid;
 }
 
 .section-title {

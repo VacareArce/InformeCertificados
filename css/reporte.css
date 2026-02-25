@@ -37,25 +37,30 @@ body {
 
 @page {
     size: letter portrait;
-    margin: 0.5in;
+    margin: 10mm;
 }
 
 @media print {
-    body {
-        background-color: transparent;
+
+    body,
+    html {
+        background-color: transparent !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
     }
 
     .letter-page {
-        margin: 0;
-        padding: 0;
-        /* Let @page handle margins on print */
-        box-shadow: none;
-        width: 100%;
-        height: auto;
-        min-height: auto;
-        /* Allow natural flow */
+        margin: 0 auto !important;
+        padding: 10mm 15mm !important;
+        box-shadow: none !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
         page-break-after: always;
-        overflow: visible;
+        overflow: visible !important;
+        box-sizing: border-box !important;
     }
 }
 
@@ -130,10 +135,19 @@ header {
 
 /* Tables */
 .report-table {
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
     border-collapse: collapse;
     font-size: 9pt;
     page-break-inside: auto;
+    table-layout: fixed;
+    word-wrap: break-word;
+}
+
+.report-table td,
+.report-table th {
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .report-table tr {
@@ -184,9 +198,9 @@ header {
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: center;
-    width: 100%;
+    width: 100% !important;
+    max-width: 100% !important;
     position: relative;
-    /* Max height constraint for A4 printing */
     height: 300px;
 }
 

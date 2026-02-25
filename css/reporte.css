@@ -23,6 +23,47 @@ body {
     line-height: 1.4;
 }
 
+/* Print Controls */
+.print-controls {
+    text-align: right;
+    padding: 20px 20px 0;
+    max-width: 8.5in;
+    margin: 0 auto;
+}
+
+.btn-pdf {
+    background-color: var(--naranja);
+    color: var(--blanco);
+    border: none;
+    padding: 10px 20px;
+    font-size: 11pt;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s, transform 0.1s;
+    font-family: inherit;
+}
+
+.btn-pdf:hover {
+    background-color: #d9752b;
+    transform: translateY(-1px);
+}
+
+.btn-pdf:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media print {
+    .print-controls {
+        display: none !important;
+    }
+}
+
 /* Page Setup for Letter Printing */
 .letter-page {
     width: 8.5in;

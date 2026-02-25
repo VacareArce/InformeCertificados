@@ -10,184 +10,203 @@
 </head>
 
 <body>
-    <!-- SECCIÓN CERTIFICADOS -->
-    <div class="letter-page">
-        <header>
-            <div class="header-logo">
-                <h2>ABACO</h2>
-                <p>Asociación de Bancos de Alimentos de Colombia</p>
-            </div>
-            <div class="header-title">
-                <h1>Informe de Certificados de Donación</h1>
-                <p>Período: Junio - Diciembre 2025</p>
-            </div>
-        </header>
+    <!-- BOTÓN DE DESCARGA -->
+    <div class="print-controls">
+        <button id="btn-download-pdf" class="btn-pdf">
+            <svg xmlns="http://www.w3.org/-logo" viewBox="0 0 24 24" width="20" height="20" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Descargar PDF
+        </button>
+    </div>
 
-        <section class="report-section">
-            <div class="section-title">
-                <h3>1. Total de Certificados por Mes</h3>
-            </div>
-            <table class="report-table" id="tabla-totales-cert">
-                <thead>
-                    <tr>
-                        <th>Mes</th>
-                        <th>Cantidad (Mensual)</th>
-                        <th>Valor (Mensual)</th>
-                        <th>Cantidad (Acumulado)</th>
-                        <th>Valor (Acumulado)</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td colspan="5" class="text-center">Cargando datos...</td>
-                    </tr>
-                </tbody>
-            </table>
+    <div id="report-container">
+        <!-- SECCIÓN CERTIFICADOS -->
+        <div class="letter-page">
+            <header>
+                <div class="header-logo">
+                    <h2>ABACO</h2>
+                    <p>Asociación de Bancos de Alimentos de Colombia</p>
+                </div>
+                <div class="header-title">
+                    <h1>Informe de Certificados de Donación</h1>
+                    <p>Período: Junio - Diciembre 2025</p>
+                </div>
+            </header>
 
-            <div class="chart-container">
-                <canvas id="grafico-certificados"></canvas>
-            </div>
-        </section>
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>1. Total de Certificados por Mes</h3>
+                </div>
+                <table class="report-table" id="tabla-totales-cert">
+                    <thead>
+                        <tr>
+                            <th>Mes</th>
+                            <th>Cantidad (Mensual)</th>
+                            <th>Valor (Mensual)</th>
+                            <th>Cantidad (Acumulado)</th>
+                            <th>Valor (Acumulado)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td colspan="5" class="text-center">Cargando datos...</td>
+                        </tr>
+                    </tbody>
+                </table>
 
-        <section class="report-section">
-            <div class="section-title">
-                <h3>2. Certificados Generados por Tipo</h3>
-            </div>
-            <table class="report-table" id="tabla-tipos-cert">
-                <thead>
-                    <tr>
-                        <th>Mes</th>
-                        <th>Tipo de Certificado</th>
-                        <th>Cantidad (Mensual)</th>
-                        <th>Cantidad (Acumulado)</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
-    </div> <!-- End Page 1 -->
+                <div class="chart-container">
+                    <canvas id="grafico-certificados"></canvas>
+                </div>
+            </section>
 
-    <div class="letter-page">
-        <header>
-            <div class="header-title">
-                <h1>Informe de Certificados</h1>
-                <p>Continuación - Rechazos y Donantes</p>
-            </div>
-        </header>
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>2. Certificados Generados por Tipo</h3>
+                </div>
+                <table class="report-table" id="tabla-tipos-cert">
+                    <thead>
+                        <tr>
+                            <th>Mes</th>
+                            <th>Tipo de Certificado</th>
+                            <th>Cantidad (Mensual)</th>
+                            <th>Cantidad (Acumulado)</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </div> <!-- End Page 1 -->
 
-        <section class="report-section">
-            <div class="section-title">
-                <h3>3. Certificados Rechazados / Anulados</h3>
-                <p>Total Rechazados: <span id="total-rechazados-cert">0</span></p>
-            </div>
-            <table class="report-table" id="tabla-rechazos-cert">
-                <thead>
-                    <tr>
-                        <th>ID Documento</th>
-                        <th>Empresa</th>
-                        <th>Observación</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
+        <div class="letter-page">
+            <header>
+                <div class="header-title">
+                    <h1>Informe de Certificados</h1>
+                    <p>Continuación - Rechazos y Donantes</p>
+                </div>
+            </header>
 
-        <section class="report-section">
-            <div class="section-title">
-                <h3>4. Top 30 Donantes (Certificados)</h3>
-            </div>
-            <table class="report-table" id="tabla-donantes-cert">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Donante / Empresa</th>
-                        <th>Cant. Certificados</th>
-                        <th>Monto Total Donado</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
-    </div> <!-- End Page 2 -->
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>3. Certificados Rechazados / Anulados</h3>
+                    <p>Total Rechazados: <span id="total-rechazados-cert">0</span></p>
+                </div>
+                <table class="report-table" id="tabla-rechazos-cert">
+                    <thead>
+                        <tr>
+                            <th>ID Documento</th>
+                            <th>Empresa</th>
+                            <th>Observación</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
 
-    <!-- SECCIÓN CONSTANCIAS -->
-    <div class="letter-page" style="page-break-before: always;">
-        <header>
-            <div class="header-logo">
-                <h2>ABACO</h2>
-                <p>Asociación de Bancos de Alimentos de Colombia</p>
-            </div>
-            <div class="header-title">
-                <h1>Informe de Constancias de Donación</h1>
-                <p>Período: Junio - Diciembre 2025</p>
-            </div>
-        </header>
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>4. Top 30 Donantes (Certificados)</h3>
+                </div>
+                <table class="report-table" id="tabla-donantes-cert">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Donante / Empresa</th>
+                            <th>Cant. Certificados</th>
+                            <th>Monto Total Donado</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </div> <!-- End Page 2 -->
 
-        <section class="report-section">
-            <div class="section-title">
-                <h3>5. Total de Constancias por Mes</h3>
-            </div>
-            <table class="report-table" id="tabla-totales-const">
-                <thead>
-                    <tr>
-                        <th>Mes</th>
-                        <th>Cantidad (Mensual)</th>
-                        <th>Kilos (Mensual)</th>
-                        <th>Cantidad (Acumulado)</th>
-                        <th>Kilos (Acumulado)</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
+        <!-- SECCIÓN CONSTANCIAS -->
+        <div class="letter-page" style="page-break-before: always;">
+            <header>
+                <div class="header-logo">
+                    <h2>ABACO</h2>
+                    <p>Asociación de Bancos de Alimentos de Colombia</p>
+                </div>
+                <div class="header-title">
+                    <h1>Informe de Constancias de Donación</h1>
+                    <p>Período: Junio - Diciembre 2025</p>
+                </div>
+            </header>
 
-            <div class="chart-container" style="margin-top:20px; text-align:center;">
-                <canvas id="grafico-constancias"></canvas>
-            </div>
-        </section>
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>5. Total de Constancias por Mes</h3>
+                </div>
+                <table class="report-table" id="tabla-totales-const">
+                    <thead>
+                        <tr>
+                            <th>Mes</th>
+                            <th>Cantidad (Mensual)</th>
+                            <th>Kilos (Mensual)</th>
+                            <th>Cantidad (Acumulado)</th>
+                            <th>Kilos (Acumulado)</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
 
-        <section class="report-section">
-            <div class="section-title">
-                <h3>6. Constancias Rechazadas / Anuladas</h3>
-                <p>Total Rechazados: <span id="total-rechazados-const">0</span></p>
-            </div>
-            <table class="report-table" id="tabla-rechazos-const">
-                <thead>
-                    <tr>
-                        <th>ID Documento</th>
-                        <th>Empresa</th>
-                        <th>Observación</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
-    </div> <!-- End Page 3 -->
+                <div class="chart-container" style="margin-top:20px; text-align:center;">
+                    <canvas id="grafico-constancias"></canvas>
+                </div>
+            </section>
 
-    <div class="letter-page">
-        <header>
-            <div class="header-title">
-                <h1>Informe de Constancias</h1>
-                <p>Continuación - Top Donantes</p>
-            </div>
-        </header>
-        <section class="report-section">
-            <div class="section-title">
-                <h3>7. Top 30 Donantes (Constancias)</h3>
-            </div>
-            <table class="report-table" id="tabla-donantes-const">
-                <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Donante / Empresa</th>
-                        <th>Cant. Constancias</th>
-                        <th>Kilos Totales Donados</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
-    </div> <!-- End Page 4 -->
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>6. Constancias Rechazadas / Anuladas</h3>
+                    <p>Total Rechazados: <span id="total-rechazados-const">0</span></p>
+                </div>
+                <table class="report-table" id="tabla-rechazos-const">
+                    <thead>
+                        <tr>
+                            <th>ID Documento</th>
+                            <th>Empresa</th>
+                            <th>Observación</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </div> <!-- End Page 3 -->
 
+        <div class="letter-page">
+            <header>
+                <div class="header-title">
+                    <h1>Informe de Constancias</h1>
+                    <p>Continuación - Top Donantes</p>
+                </div>
+            </header>
+            <section class="report-section">
+                <div class="section-title">
+                    <h3>7. Top 30 Donantes (Constancias)</h3>
+                </div>
+                <table class="report-table" id="tabla-donantes-const">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Donante / Empresa</th>
+                            <th>Cant. Constancias</th>
+                            <th>Kilos Totales Donados</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </section>
+        </div> <!-- End Page 4 -->
+    </div> <!-- End Report Container -->
+
+    <!-- Librerías Externas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+        integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>

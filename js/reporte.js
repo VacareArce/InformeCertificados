@@ -141,6 +141,8 @@ function renderDonantes(donantes, tableId, isCurrency) {
 
 // === Gráficos con Chart.js ===
 function renderCharts(data) {
+    Chart.register(ChartDataLabels);
+
     const labels = [];
     const valuesCert = [];
     const valuesConst = [];
@@ -178,9 +180,24 @@ function renderCharts(data) {
                 maintainAspectRatio: false,
                 plugins: {
                     legend: { position: 'top' },
-                    title: { display: true, text: 'Certificados Emitidos por Mes' }
+                    title: { display: true, text: 'Certificados Emitidos por Mes' },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        color: '#5B5B5B',
+                        font: { weight: 'bold' }
+                    },
+                    tooltip: { enabled: false }
                 },
-                scales: { y: { beginAtZero: true } }
+                layout: {
+                    padding: { top: 20 }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grace: '10%'
+                    }
+                }
             }
         });
     }
@@ -206,9 +223,24 @@ function renderCharts(data) {
                 maintainAspectRatio: false,
                 plugins: {
                     legend: { position: 'top' },
-                    title: { display: true, text: 'Constancias Emitidas por Mes' }
+                    title: { display: true, text: 'Constancias Emitidas por Mes' },
+                    datalabels: {
+                        anchor: 'end',
+                        align: 'top',
+                        color: '#5B5B5B',
+                        font: { weight: 'bold' }
+                    },
+                    tooltip: { enabled: false }
                 },
-                scales: { y: { beginAtZero: true } }
+                layout: {
+                    padding: { top: 20 }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        grace: '10%'
+                    }
+                }
             }
         });
     }

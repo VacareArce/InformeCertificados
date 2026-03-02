@@ -1,214 +1,203 @@
 {
   "certificados": {
     "mensual": {
+      "1": {
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "2": {
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "3": {
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "4": {
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "5": {
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
       "6": {
-        "count": 129,
-        "valor": 4004234838.0699997,
-        "tipos": {
-          "Donación_EspecieFactura": 23,
-          "Donación_UnaAUnoFactura": 16,
-          "Donación_EspecieCarta": 14,
-          "Donación_EspecieFactura_bdo": 18,
-          "Donación_Dinero_empresa": 11,
-          "Donación_Dinero_persona": 3,
-          "Donación_UnoAUnoFactura_bdo": 24,
-          "Donación_UnoAUnoCarta_bdo": 8,
-          "Donación_EspecieCarta_bdo": 12
-        },
-        "acumulado_tipos": {
-          "Donación_EspecieFactura": 23,
-          "Donación_UnaAUnoFactura": 16,
-          "Donación_EspecieCarta": 14,
-          "Donación_EspecieFactura_bdo": 18,
-          "Donación_Dinero_empresa": 11,
-          "Donación_Dinero_persona": 3,
-          "Donación_UnoAUnoFactura_bdo": 24,
-          "Donación_UnoAUnoCarta_bdo": 8,
-          "Donación_EspecieCarta_bdo": 12
-        },
-        "acumulado_count": 129,
-        "acumulado_valor": 4004234838.0699997
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
       },
       "7": {
-        "count": 124,
-        "valor": 6808846313.78,
-        "tipos": {
-          "Donación_EspecieFactura": 21,
-          "Donación_UnaAUnoFactura": 3,
-          "Donación_EspecieCarta": 10,
-          "Donación_EspecieFactura_bdo": 15,
-          "Donación_Dinero_empresa": 12,
-          "Donación_UnoAUnoFactura_bdo": 38,
-          "Donación_EspecieCarta_bdo": 15,
-          "Donación_UnoAUnoCarta_bdo": 9,
-          "Donación_Dinero_empresa_bdo": 1
-        },
-        "acumulado_tipos": {
-          "Donación_EspecieFactura": 44,
-          "Donación_UnaAUnoFactura": 19,
-          "Donación_EspecieCarta": 24,
-          "Donación_EspecieFactura_bdo": 33,
-          "Donación_Dinero_empresa": 23,
-          "Donación_Dinero_persona": 3,
-          "Donación_UnoAUnoFactura_bdo": 62,
-          "Donación_UnoAUnoCarta_bdo": 17,
-          "Donación_EspecieCarta_bdo": 27,
-          "Donación_Dinero_empresa_bdo": 1
-        },
-        "acumulado_count": 253,
-        "acumulado_valor": 10813081151.849998
+        "count": 0,
+        "valor": 0,
+        "tipos": {},
+        "acumulado_tipos": {},
+        "acumulado_count": 0,
+        "acumulado_valor": 0
       },
       "8": {
-        "count": 123,
-        "valor": 4759347041.16,
+        "count": 97,
+        "valor": 6380153516.610001,
         "tipos": {
-          "Donación_EspecieFactura": 4,
-          "Donación_UnaAUnoFactura": 2,
-          "Donación_Dinero_empresa": 10,
-          "Donación_Dinero_persona": 1,
-          "Donación_EspecieFactura_bdo": 23,
-          "Donación_UnoAUnoFactura_bdo": 48,
-          "Donación_EspecieCarta": 1,
-          "Donación_EspecieCarta_bdo": 24,
-          "Donación_UnoAUnoCarta_bdo": 10
+          "Donación_EspecieFactura": 25,
+          "Donación_EspecieCarta": 32,
+          "Donación_Carta_UnaAUno": 8,
+          "Donación_EspecieCarta_bdo": 1,
+          "Donación_UnaAUnoFactura": 26,
+          "Donación_UnoAUnoFactura_bdo": 1,
+          "Donación_EspecieFactura_bdo": 3,
+          "Donación_UnoAUnoCarta_bdo": 1
         },
         "acumulado_tipos": {
-          "Donación_EspecieFactura": 48,
-          "Donación_UnaAUnoFactura": 21,
-          "Donación_EspecieCarta": 25,
-          "Donación_EspecieFactura_bdo": 56,
-          "Donación_Dinero_empresa": 33,
-          "Donación_Dinero_persona": 4,
-          "Donación_UnoAUnoFactura_bdo": 110,
-          "Donación_UnoAUnoCarta_bdo": 27,
-          "Donación_EspecieCarta_bdo": 51,
-          "Donación_Dinero_empresa_bdo": 1
+          "Donación_EspecieFactura": 25,
+          "Donación_EspecieCarta": 32,
+          "Donación_Carta_UnaAUno": 8,
+          "Donación_EspecieCarta_bdo": 1,
+          "Donación_UnaAUnoFactura": 26,
+          "Donación_UnoAUnoFactura_bdo": 1,
+          "Donación_EspecieFactura_bdo": 3,
+          "Donación_UnoAUnoCarta_bdo": 1
         },
-        "acumulado_count": 376,
-        "acumulado_valor": 15572428193.009998
+        "acumulado_count": 97,
+        "acumulado_valor": 6380153516.610001
       },
       "9": {
-        "count": 129,
-        "valor": 5763851744.489999,
+        "count": 163,
+        "valor": 6805033467.239998,
         "tipos": {
-          "Donación_UnaAUnoFactura": 1,
-          "Donación_EspecieFactura": 2,
-          "Donación_EspecieFactura_bdo": 27,
-          "Donación_UnoAUnoFactura_bdo": 54,
-          "Donación_EspecieCarta_bdo": 22,
-          "Donación_UnoAUnoCarta_bdo": 8,
-          "Donación_Dinero_empresa_bdo": 15
+          "Donación_EspecieFactura": 25,
+          "Donación_EspecieCarta": 12,
+          "Donación_UnaAUnoFactura": 17,
+          "Donación_EspecieCarta_bdo": 2,
+          "Donación_Dinero_empresa": 58,
+          "Donación_Dinero_persona": 19,
+          "Donación_EspecieFactura_bdo": 5,
+          "Donación_UnoAUnoFactura_bdo": 21,
+          "Donación_Carta_UnaAUno": 3,
+          "Donación_UnoAUnoCarta_bdo": 1
         },
         "acumulado_tipos": {
           "Donación_EspecieFactura": 50,
-          "Donación_UnaAUnoFactura": 22,
-          "Donación_EspecieCarta": 25,
-          "Donación_EspecieFactura_bdo": 83,
-          "Donación_Dinero_empresa": 33,
-          "Donación_Dinero_persona": 4,
-          "Donación_UnoAUnoFactura_bdo": 164,
-          "Donación_UnoAUnoCarta_bdo": 35,
-          "Donación_EspecieCarta_bdo": 73,
-          "Donación_Dinero_empresa_bdo": 16
+          "Donación_EspecieCarta": 44,
+          "Donación_Carta_UnaAUno": 11,
+          "Donación_EspecieCarta_bdo": 3,
+          "Donación_UnaAUnoFactura": 43,
+          "Donación_UnoAUnoFactura_bdo": 22,
+          "Donación_EspecieFactura_bdo": 8,
+          "Donación_UnoAUnoCarta_bdo": 2,
+          "Donación_Dinero_empresa": 58,
+          "Donación_Dinero_persona": 19
         },
-        "acumulado_count": 505,
-        "acumulado_valor": 21336279937.499996
+        "acumulado_count": 260,
+        "acumulado_valor": 13185186983.849998
       },
       "10": {
-        "count": 131,
-        "valor": 7302899810.98,
+        "count": 71,
+        "valor": 4650748234.44,
         "tipos": {
-          "Donación_UnoAUnoFactura_bdo": 58,
-          "Donación_EspecieFactura_bdo": 32,
+          "Donación_UnoAUnoCarta_bdo": 12,
+          "Donación_EspecieFactura_bdo": 19,
+          "Donación_UnoAUnoFactura_bdo": 14,
+          "Donación_EspecieCarta_bdo": 22,
           "Donación_EspecieFactura": 1,
-          "Donación_Dinero_empresa": 3,
-          "Donación_EspecieCarta_bdo": 18,
-          "Donación_Dinero_empresa_bdo": 10,
-          "Donación_Dinero_persona_bdo": 1,
-          "Donación_Carta_UnaAUno": 2,
-          "Donación_UnoAUnoCarta_bdo": 6
+          "Donación_Dinero_empresa": 3
         },
         "acumulado_tipos": {
           "Donación_EspecieFactura": 51,
-          "Donación_UnaAUnoFactura": 22,
-          "Donación_EspecieCarta": 25,
-          "Donación_EspecieFactura_bdo": 115,
-          "Donación_Dinero_empresa": 36,
-          "Donación_Dinero_persona": 4,
-          "Donación_UnoAUnoFactura_bdo": 222,
-          "Donación_UnoAUnoCarta_bdo": 41,
-          "Donación_EspecieCarta_bdo": 91,
-          "Donación_Dinero_empresa_bdo": 26,
-          "Donación_Dinero_persona_bdo": 1,
-          "Donación_Carta_UnaAUno": 2
+          "Donación_EspecieCarta": 44,
+          "Donación_Carta_UnaAUno": 11,
+          "Donación_EspecieCarta_bdo": 25,
+          "Donación_UnaAUnoFactura": 43,
+          "Donación_UnoAUnoFactura_bdo": 36,
+          "Donación_EspecieFactura_bdo": 27,
+          "Donación_UnoAUnoCarta_bdo": 14,
+          "Donación_Dinero_empresa": 61,
+          "Donación_Dinero_persona": 19
         },
-        "acumulado_count": 636,
-        "acumulado_valor": 28639179748.479996
+        "acumulado_count": 331,
+        "acumulado_valor": 17835935218.289997
       },
       "11": {
-        "count": 113,
-        "valor": 5165905230.180002,
+        "count": 63,
+        "valor": 4145740123.61,
         "tipos": {
-          "Donación_EspecieFactura_bdo": 24,
           "Donación_EspecieCarta_bdo": 21,
-          "Donación_UnoAUnoFactura_bdo": 42,
-          "Donación_Dinero_empresa_bdo": 16,
-          "Donación_Dinero_persona_bdo": 2,
-          "Donación_UnoAUnoCarta_bdo": 8
+          "Donación_EspecieFactura_bdo": 26,
+          "Donación_UnoAUnoCarta_bdo": 9,
+          "Donación_UnoAUnoFactura_bdo": 5,
+          "Donación_Dinero_empresa_bdo": 1,
+          "Donación_EspecieCarta": 1
         },
         "acumulado_tipos": {
           "Donación_EspecieFactura": 51,
-          "Donación_UnaAUnoFactura": 22,
-          "Donación_EspecieCarta": 25,
-          "Donación_EspecieFactura_bdo": 139,
-          "Donación_Dinero_empresa": 36,
-          "Donación_Dinero_persona": 4,
-          "Donación_UnoAUnoFactura_bdo": 264,
-          "Donación_UnoAUnoCarta_bdo": 49,
-          "Donación_EspecieCarta_bdo": 112,
-          "Donación_Dinero_empresa_bdo": 42,
-          "Donación_Dinero_persona_bdo": 3,
-          "Donación_Carta_UnaAUno": 2
+          "Donación_EspecieCarta": 45,
+          "Donación_Carta_UnaAUno": 11,
+          "Donación_EspecieCarta_bdo": 46,
+          "Donación_UnaAUnoFactura": 43,
+          "Donación_UnoAUnoFactura_bdo": 41,
+          "Donación_EspecieFactura_bdo": 53,
+          "Donación_UnoAUnoCarta_bdo": 23,
+          "Donación_Dinero_empresa": 61,
+          "Donación_Dinero_persona": 19,
+          "Donación_Dinero_empresa_bdo": 1
         },
-        "acumulado_count": 749,
-        "acumulado_valor": 33805084978.659996
+        "acumulado_count": 394,
+        "acumulado_valor": 21981675341.899998
       },
       "12": {
-        "count": 161,
-        "valor": 11401434289.529999,
+        "count": 758,
+        "valor": 40992511540.51,
         "tipos": {
-          "Donación_EspecieFactura_bdo": 57,
-          "Donación_Dinero_empresa_bdo": 17,
-          "Donación_Dinero_persona_bdo": 2,
-          "Donación_UnoAUnoFactura_bdo": 40,
-          "Donación_EspecieCarta_bdo": 36,
-          "Donación_UnoAUnoCarta_bdo": 9
+          "Donación_EspecieFactura_bdo": 163,
+          "Donación_UnoAUnoCarta_bdo": 52,
+          "Donación_EspecieCarta_bdo": 150,
+          "Donación_UnoAUnoFactura_bdo": 323,
+          "Donación_Dinero_empresa_bdo": 59,
+          "Donación_Dinero_persona_bdo": 5,
+          "Donación_Carta_UnaAUno": 2,
+          "Donación_UnaAUnoFactura": 4
         },
         "acumulado_tipos": {
           "Donación_EspecieFactura": 51,
-          "Donación_UnaAUnoFactura": 22,
-          "Donación_EspecieCarta": 25,
-          "Donación_EspecieFactura_bdo": 196,
-          "Donación_Dinero_empresa": 36,
-          "Donación_Dinero_persona": 4,
-          "Donación_UnoAUnoFactura_bdo": 304,
-          "Donación_UnoAUnoCarta_bdo": 58,
-          "Donación_EspecieCarta_bdo": 148,
-          "Donación_Dinero_empresa_bdo": 59,
-          "Donación_Dinero_persona_bdo": 5,
-          "Donación_Carta_UnaAUno": 2
+          "Donación_EspecieCarta": 45,
+          "Donación_Carta_UnaAUno": 13,
+          "Donación_EspecieCarta_bdo": 196,
+          "Donación_UnaAUnoFactura": 47,
+          "Donación_UnoAUnoFactura_bdo": 364,
+          "Donación_EspecieFactura_bdo": 216,
+          "Donación_UnoAUnoCarta_bdo": 75,
+          "Donación_Dinero_empresa": 61,
+          "Donación_Dinero_persona": 19,
+          "Donación_Dinero_empresa_bdo": 60,
+          "Donación_Dinero_persona_bdo": 5
         },
-        "acumulado_count": 910,
-        "acumulado_valor": 45206519268.189995
+        "acumulado_count": 1152,
+        "acumulado_valor": 62974186882.41
       }
     },
     "rechazos": [
-      {
-        "document_id": "AC-0496",
-        "fecha": "31 de Julio del 2025",
-        "empresa": "HY-LINE COLOMBIA S.A.S.",
-        "observacion": "El 11 de febrero se recibe correo de Logística solicitando anular este certificado porque la factura PL14576 fue anulada en su totalidad con la nota crédito 235 (se incluye en los soportes de este certificado). En el mismo correo reportan que esta donación se certificó en el AC-0495 factura PL14076"
-      },
       {
         "document_id": "AC-0606",
         "fecha": "14 de Agosto del 2025",
@@ -288,10 +277,22 @@
         "observacion": "Se anula por solicitud de Ingrid en correo enviado el 23 de diciembre a la 1:20 pm. Se envió la solicitud dos veces y se generaron los certificados AC-0849 y AC-0910. Se deja vigente el AC-0849."
       },
       {
+        "document_id": "AC-0953",
+        "fecha": "26 de Noviembre del 2025",
+        "empresa": "PRODUCTORA DE ALIMENTOS CONCENTRADOS PARA ANIMALES CONTEGRAL S.A.S.",
+        "observacion": "Se anula por solicitud recibida de Logística vía correo electrónico el 10 de febrero de 2026, la razón es que la factura FGE235915 se anulo parcialmente con la NC NFE4681. Se reemplazo por el AC-1582."
+      },
+      {
         "document_id": "AC-0959",
         "fecha": "26 de Noviembre del 2025",
         "empresa": "PRODUCTORA DE ALIMENTOS CONCENTRADOS PARA ANIMALES CONTEGRAL S.A.S.",
         "observacion": "Se anula por solicitud recibida de Logística vía correo electrónico el 10 de febrero de 2026, la razón es que las facturas FGE265334 y FGE266498  se anularon parcialmente con las NC NFE7423 y NFE7698 respectivamente. Se reemplazo por el AC-1583."
+      },
+      {
+        "document_id": "AC-1008",
+        "fecha": "01 de Diciembre del 2025",
+        "empresa": "PEPSICO ALIMENTOS COLOMBIA LTDA",
+        "observacion": "Se solicito cambiar en el uno a uno los numeros de facturas porque no correspondían al consecutivo correcto. Al momento de realizar el cambio ya se habia firmado. Se reemplazo por el AC-1727."
       },
       {
         "document_id": "AC-1038",
@@ -334,6 +335,12 @@
         "fecha": "26 de Noviembre del 2025",
         "empresa": "CENCOSUD COLOMBIA S.A.",
         "observacion": "Se cambio certificado por el AC-1726. Error en el valor contabilizado."
+      },
+      {
+        "document_id": "AC-1397",
+        "fecha": "31 de Diciembre del 2025",
+        "empresa": "FUNDACION OLIMPICA",
+        "observacion": "Se cambio certificado por el AC-1722."
       },
       {
         "document_id": "AC-1398",
@@ -388,27 +395,37 @@
       {
         "empresa": "ALMACENES EXITO S A",
         "count": 10,
-        "valor": 6912274149.0
+        "valor": 6909467045.0
       },
       {
         "empresa": "GASEOSAS LUX S.A.S.",
-        "count": 25,
-        "valor": 4613226931.93
+        "count": 31,
+        "valor": 4895390599.650001
       },
       {
         "empresa": "POSTOBON S.A.",
-        "count": 27,
-        "valor": 3420916180.359999
-      },
-      {
-        "empresa": "NESTLE DE COLOMBIA SA",
-        "count": 7,
-        "valor": 2986341160.3599997
+        "count": 33,
+        "valor": 3784185257.4099994
       },
       {
         "empresa": "COLOMBIANA DE COMERCIO S.A.",
-        "count": 7,
-        "valor": 2884896376.0
+        "count": 9,
+        "valor": 3559269494.0
+      },
+      {
+        "empresa": "NESTLE DE COLOMBIA SA",
+        "count": 11,
+        "valor": 3415112426.2799997
+      },
+      {
+        "empresa": "ALPINA PRODUCTOS ALIMENTICIOS S.A. BIC",
+        "count": 9,
+        "valor": 2656326908.0
+      },
+      {
+        "empresa": "JERONIMO MARTINS COLOMBIA S.A.S.",
+        "count": 16,
+        "valor": 2075556980.0
       },
       {
         "empresa": "SERVICIOS NUTRESA S.A.S.",
@@ -416,14 +433,44 @@
         "valor": 1900750000.0
       },
       {
-        "empresa": "ALPINA PRODUCTOS ALIMENTICIOS S.A. BIC",
-        "count": 7,
-        "valor": 1858117784.0
+        "empresa": "COMPAÑIA DE GALLETAS NOEL S.A.S.",
+        "count": 24,
+        "valor": 1841857260.0
       },
       {
         "empresa": "NUTRIMENTI DE COLOMBIA S.A.S.",
+        "count": 19,
+        "valor": 1727950537.6599998
+      },
+      {
+        "empresa": "MAKRO SUPERMAYORISTA S.A.S",
+        "count": 6,
+        "valor": 1687074066.0
+      },
+      {
+        "empresa": "TUGO SAS",
+        "count": 2,
+        "valor": 1305780241.0
+      },
+      {
+        "empresa": "DASA DE COLOMBIA S A S",
         "count": 16,
-        "valor": 1516686707.0799997
+        "valor": 1298475925.0
+      },
+      {
+        "empresa": "KELLOGG DE COLOMBIA S.A.",
+        "count": 12,
+        "valor": 1278985376.0
+      },
+      {
+        "empresa": "ALIMENTOS CARNICOS S.A.S",
+        "count": 50,
+        "valor": 1223413610.0
+      },
+      {
+        "empresa": "CPNS SAS",
+        "count": 8,
+        "valor": 1218339296.0
       },
       {
         "empresa": "INVERSIONES ROA V SOLANO S A S",
@@ -431,173 +478,203 @@
         "valor": 1200000000.0
       },
       {
-        "empresa": "DASA DE COLOMBIA S A S",
-        "count": 14,
-        "valor": 1111204570.0
+        "empresa": "PEPSICO ALIMENTOS COLOMBIA LTDA",
+        "count": 13,
+        "valor": 1119704516.0
       },
       {
-        "empresa": "KELLOGG DE COLOMBIA S.A.",
-        "count": 11,
-        "valor": 1081470086.0
-      },
-      {
-        "empresa": "CPNS SAS",
-        "count": 7,
-        "valor": 1074090346.0
-      },
-      {
-        "empresa": "PRODUCTOS NATURALES DE LA SABANA S.A.S BIC",
-        "count": 4,
-        "valor": 756859218.0
-      },
-      {
-        "empresa": "UNILEVER ANDINA COLOMBIA LTDA",
-        "count": 8,
-        "valor": 681513638.02
-      },
-      {
-        "empresa": "SUPERTIENDAS Y DROGUERIAS OLIMPICA S.A.",
-        "count": 7,
-        "valor": 663773811.0
+        "empresa": "INDUSTRIA COLOMBIANA DE CAFE S.A.S.",
+        "count": 26,
+        "valor": 1091788805.0
       },
       {
         "empresa": "PRODUCTOS NATURALES DE LA SABANA S A S",
-        "count": 3,
-        "valor": 656954016.0
+        "count": 4,
+        "valor": 977830351.0
       },
       {
-        "empresa": "ALIMENTOS CARNICOS S.A.S",
-        "count": 28,
-        "valor": 598765162.0
-      },
-      {
-        "empresa": "FRESKALECHE S.A.S.",
-        "count": 7,
-        "valor": 545086677.0
-      },
-      {
-        "empresa": "PEPSICO ALIMENTOS COLOMBIA LTDA",
-        "count": 7,
-        "valor": 495813447.0
-      },
-      {
-        "empresa": "ASOCIACION NACIONAL DE EMPRESARIOS DE COLOMBIA",
+        "empresa": "PRODUCTOS NATURALES DE LA SABANA S.A.S BIC",
         "count": 5,
-        "valor": 475980000.0
+        "valor": 963605333.0
+      },
+      {
+        "empresa": "UNILEVER ANDINA COLOMBIA LTDA",
+        "count": 9,
+        "valor": 811895997.4200001
       },
       {
         "empresa": "PLAN B INVESTMENTS S.A.S",
+        "count": 14,
+        "valor": 771970606.0
+      },
+      {
+        "empresa": "FRESKALECHE S.A.S.",
         "count": 9,
-        "valor": 475690621.0
+        "valor": 699652687.0
+      },
+      {
+        "empresa": "COLOMBIANA KIMBERLY COLPAPEL SAS",
+        "count": 2,
+        "valor": 677266805.0
       },
       {
         "empresa": "COMPAÑIA NACIONAL DE CHOCOLATES S. A. S",
-        "count": 22,
-        "valor": 444053342.0
+        "count": 27,
+        "valor": 664576516.0
       },
       {
-        "empresa": "JERONIMO MARTINS COLOMBIA S.A.S.",
-        "count": 12,
-        "valor": 428392115.0
+        "empresa": "COMERCIAL NUTRESA S . A .S",
+        "count": 13,
+        "valor": 655249916.0
+      },
+      {
+        "empresa": "COMPAÑIA NACIONAL DE LEVADURAS LEVAPAN S.A.",
+        "count": 4,
+        "valor": 599904364.0
       },
       {
         "empresa": "PRODUCTOS RAMO SAS",
-        "count": 9,
-        "valor": 409709392.0
+        "count": 12,
+        "valor": 586275903.0
       },
       {
-        "empresa": "NOVAVENTA S.A.S",
-        "count": 39,
-        "valor": 360200515.0
-      },
-      {
-        "empresa": "AVSA S.A",
-        "count": 10,
-        "valor": 334643508.0
-      },
-      {
-        "empresa": "PRODUCTORA DE ALIMENTOS CONCENTRADOS PARA ANIMALES CONTEGRAL S.A.S.",
-        "count": 13,
-        "valor": 304789799.0
-      },
-      {
-        "empresa": "COLOMBIANA DE COMERCIO S.A",
-        "count": 1,
-        "valor": 300000000.0
-      },
-      {
-        "empresa": "ALIMENTOS CONCENTRADOS DEL CARIBE S.A. \"ACONDESA S.A.\"",
-        "count": 1,
-        "valor": 296718504.6
-      },
-      {
-        "empresa": "HLF COLOMBIA LTDA",
-        "count": 3,
-        "valor": 294842274.0
+        "empresa": "SUPERTIENDAS Y DROGUERIAS OLIMPICA S.A.",
+        "count": 6,
+        "valor": 566799884.0
       }
     ]
   },
   "constancias": {
     "mensual": {
+      "1": {
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "2": {
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "3": {
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "4": {
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
+      "5": {
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
+      },
       "6": {
-        "count": 16,
-        "valor": 16397.19,
-        "acumulado_count": 16,
-        "acumulado_valor": 16397.19
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
       },
       "7": {
-        "count": 10,
-        "valor": 4891.148999999999,
-        "acumulado_count": 26,
-        "acumulado_valor": 21288.339
+        "count": 0,
+        "valor": 0,
+        "acumulado_count": 0,
+        "acumulado_valor": 0
       },
       "8": {
-        "count": 14,
-        "valor": 12267.134999999998,
-        "acumulado_count": 40,
-        "acumulado_valor": 33555.474
+        "count": 15,
+        "valor": 14783.265,
+        "acumulado_count": 15,
+        "acumulado_valor": 14783.265
       },
       "9": {
-        "count": 16,
-        "valor": 14321.44,
-        "acumulado_count": 56,
-        "acumulado_valor": 47876.914000000004
+        "count": 15,
+        "valor": 10302.68,
+        "acumulado_count": 30,
+        "acumulado_valor": 25085.945
       },
       "10": {
         "count": 10,
-        "valor": 22762.34,
-        "acumulado_count": 66,
-        "acumulado_valor": 70639.254
+        "valor": 3451.37,
+        "acumulado_count": 40,
+        "acumulado_valor": 28537.315
       },
       "11": {
-        "count": 12,
-        "valor": 25593.149999999998,
-        "acumulado_count": 78,
-        "acumulado_valor": 96232.404
+        "count": 9,
+        "valor": 47027.68,
+        "acumulado_count": 49,
+        "acumulado_valor": 75564.995
       },
       "12": {
-        "count": 14,
-        "valor": 9761.960000000001,
-        "acumulado_count": 92,
-        "acumulado_valor": 105994.364
+        "count": 107,
+        "valor": 157079.923,
+        "acumulado_count": 156,
+        "acumulado_valor": 232644.918
       }
     },
     "rechazos": [],
     "top_donantes": [
       {
         "empresa": "D1 S A S",
-        "count": 25,
-        "valor": 41847.814000000006
+        "count": 30,
+        "valor": 43773.285
+      },
+      {
+        "empresa": "AGRICOLA COLOMBIANA  S.A.",
+        "count": 3,
+        "valor": 39578.024
+      },
+      {
+        "empresa": "ALFAGRES S.A.",
+        "count": 7,
+        "valor": 34126.649999999994
       },
       {
         "empresa": "SUPERTIENDAS Y DROGUERIAS OLIMPICA S.A.",
         "count": 18,
-        "valor": 26301.100000000002
+        "valor": 19150.1
       },
       {
-        "empresa": "ALFAGRES S.A.",
-        "count": 4,
-        "valor": 14222.65
+        "empresa": "AEROVIAS DEL CONTINENTE AMERICANO S.A. AVIANCA",
+        "count": 5,
+        "valor": 12479.22
+      },
+      {
+        "empresa": "AEROVIAS DE INTEGRACION REGIONAL S.A.",
+        "count": 6,
+        "valor": 12004.585
+      },
+      {
+        "empresa": "RCN TELEVISION SA",
+        "count": 3,
+        "valor": 8155.0
+      },
+      {
+        "empresa": "PRODUCTOS FAMILIA S.A.",
+        "count": 1,
+        "valor": 6252.34
+      },
+      {
+        "empresa": "IKSO SAS",
+        "count": 5,
+        "valor": 5968.0
+      },
+      {
+        "empresa": "CENCOSUD COLOMBIA S.A.",
+        "count": 3,
+        "valor": 5915.360000000001
+      },
+      {
+        "empresa": "ALMACENES EXITO S A",
+        "count": 3,
+        "valor": 5380.59
       },
       {
         "empresa": "SODIMAC COLOMBIA S.A.",
@@ -605,14 +682,24 @@
         "valor": 5333.0
       },
       {
-        "empresa": "ORGANIZACIÓN TERPEL S.A",
-        "count": 7,
-        "valor": 3916.69
+        "empresa": "SECRETARIADO DE PASTORAL SOCIAL CARITAS BARRANQUILLA, FUNDACIÓN BANCO ARQUIDIOCESANO DE ALIMENTOS DE BOGOTÁ, BANCO DE ALIMENTOS ARQUIDIOCESIS DE BUCARAMANGA, ARQUIDIOCESIS DE CARTAGENA, BANCO ARQUIDIOCESANO DE ALIMENTOS DE IBAGUE, FUNDACIÓN BANCO ARQUIDIOCESANO DE ALIMENTOS DE MEDELLÍN, FUNDACIÓN SACIAR, FUNDACION BANCO DE ALIMENTOS DIOCESIS DE ZIPAQUIRA",
+        "count": 1,
+        "valor": 4651.4
       },
       {
-        "empresa": "IKSO SAS",
-        "count": 4,
-        "valor": 3543.4
+        "empresa": "Colegio Maximiliano Kolbe Ltda",
+        "count": 2,
+        "valor": 4255.0
+      },
+      {
+        "empresa": "COMERCIAL ALLAN S A S",
+        "count": 1,
+        "valor": 4192.0
+      },
+      {
+        "empresa": "INGREDION COLOMBIA S.A.",
+        "count": 2,
+        "valor": 3023.2
       },
       {
         "empresa": "TODOS COMEMOS S.A.S",
@@ -620,14 +707,19 @@
         "valor": 2382.18
       },
       {
+        "empresa": "BIMBO DE COLOMBIA S.A.",
+        "count": 1,
+        "valor": 1977.24
+      },
+      {
+        "empresa": "ARROCERA GELVEZ S.A.S.",
+        "count": 2,
+        "valor": 1572.0
+      },
+      {
         "empresa": "ASOCIACION AGROPECUARIA BIORGANICA",
         "count": 1,
         "valor": 1550.0
-      },
-      {
-        "empresa": "AEROVIAS DE INTEGRACION REGIONAL S.A.",
-        "count": 2,
-        "valor": 1160.4
       },
       {
         "empresa": "BRIDGESTONE DE COLOMBIA S A S EN LIQUIDACION",
@@ -635,104 +727,49 @@
         "valor": 1151.14
       },
       {
+        "empresa": "PRODUCTOS YUPI SAS",
+        "count": 1,
+        "valor": 996.0
+      },
+      {
+        "empresa": "NUTRISER COLOMBIA S.A.S",
+        "count": 2,
+        "valor": 772.855
+      },
+      {
         "empresa": "FIDUCIARIA BOGOTA S.A.",
         "count": 1,
         "valor": 728.0
       },
       {
-        "empresa": "INGREDION COLOMBIA S.A.",
+        "empresa": "ORGANIZACIÓN TERPEL S.A",
+        "count": 6,
+        "valor": 637.5
+      },
+      {
+        "empresa": "GESTION CARGO ZONA FRANCA S.A.S",
         "count": 1,
-        "valor": 523.2
+        "valor": 620.0
       },
       {
-        "empresa": "AEROVIAS DEL CONTINENTE AMERICANO S.A. AVIANCA",
-        "count": 2,
-        "valor": 373.0
-      },
-      {
-        "empresa": "AXA COLPATRIA SEGUROS DE VIDA S.A",
+        "empresa": "POLLO ANDINO S.A.",
         "count": 1,
-        "valor": 334.09
+        "valor": 495.1
       },
       {
-        "empresa": "RCN TELEVISION SA",
+        "empresa": "DHL EXPRESS COLOMBIA LTDA",
         "count": 1,
-        "valor": 330.0
+        "valor": 459.0
       },
       {
-        "empresa": "FUNDACION NU3",
+        "empresa": "KELLOGG DE COLOMBIA S.A.",
         "count": 1,
-        "valor": 325.0
+        "valor": 440.0
       },
       {
-        "empresa": "ITACATE DE COLOMBIA S.A.S.",
+        "empresa": "MAKRO SUPERMAYORISTA S.A.S",
         "count": 1,
-        "valor": 225.0
-      },
-      {
-        "empresa": "CENCOSUD COLOMBIA S.A.",
-        "count": 2,
-        "valor": 221.06
-      },
-      {
-        "empresa": "C.I. IBLU SOCIEDAD POR ACCIONES SIMPLIFICADA",
-        "count": 1,
-        "valor": 169.0
-      },
-      {
-        "empresa": "PRODUCTORA DE ALIMENTOS CONCENTRADOS PARA ANIMALES CONTEGRAL S.A.S.",
-        "count": 1,
-        "valor": 139.72
-      },
-      {
-        "empresa": "PEPSICO ALIMENTOS COLOMBIA LTDA",
-        "count": 1,
-        "valor": 135.0
-      },
-      {
-        "empresa": "SARA MARIA LOPEZ URIBE",
-        "count": 1,
-        "valor": 134.4
-      },
-      {
-        "empresa": "PROMOTORA DE CAFE COLOMBIA SA",
-        "count": 1,
-        "valor": 126.0
-      },
-      {
-        "empresa": "POLLOS SAVICOL S A S",
-        "count": 1,
-        "valor": 124.0
-      },
-      {
-        "empresa": "FUNDACION COMPARTE POR UNA VIDA COLOMBIA",
-        "count": 1,
-        "valor": 116.64
-      },
-      {
-        "empresa": "Corporación Unificada Nacional (CUN)",
-        "count": 1,
-        "valor": 110.0
-      },
-      {
-        "empresa": "ALTIPAL S A S",
-        "count": 1,
-        "valor": 96.0
-      },
-      {
-        "empresa": "ESTRELLA ANDINA S.A.S.",
-        "count": 1,
-        "valor": 83.0
-      },
-      {
-        "empresa": "GASTRONOMÍA ITALIANA EN COLOMBIA S.A.S.",
-        "count": 1,
-        "valor": 81.0
-      },
-      {
-        "empresa": "NEW BRANDS S A S",
-        "count": 1,
-        "valor": 70.0
+        "valor": 404.0
       }
     ]
   }
